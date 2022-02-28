@@ -21,10 +21,10 @@ const Layout: FC = ({ children }) => {
   return (
     <DimensionContext.Provider value={dimensions}>
       <main
-        className="flex flex-col min-h-screen w-screen overflow-x-hidden overflow-y-auto items-center relative z-10"
+        className="grid grid-flow-row min-h-screen w-screen overflow-x-hidden overflow-y-auto items-center relative z-10"
         ref={pageContainerRef}
       >
-        <article className="flex-1 w-full max-w-screen-2xl p-4 relative items-center">{children}</article>
+        <article className="flex-1 flex-col w-full max-w-screen-2xl p-4 relative items-center">{children}</article>
         <Footer />
       </main>
     </DimensionContext.Provider>
