@@ -18,8 +18,8 @@ const Home: NextPage = () => {
       <div className="flex justify-center">
         <div className="bg-white p-6 mt-10 max-w-lg shadow-gray-300 shadow-sm rounded-sm">
           <Typography variant="body1">
-            Press either of the buttons below to subscribe to the calendar of the 2022 World Padel Tour tournament
-            dates. The calendar will be updated throughout the tour.
+            Press either of the buttons below to subscribe to a calendar of the 2022 World Padel Tour tournament dates.
+            The calendar will be updated throughout the tour.
           </Typography>
         </div>
       </div>
