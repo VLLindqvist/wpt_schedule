@@ -1,0 +1,26 @@
+{
+  "name": "World Padel Tour 2022 Calendar",
+  "short_name": "WPT2022 Calendar",
+  "scope": "/",
+  "lang": "en",
+  "description": "The unofficial website to get a subscribable calendar of the 2022 World Padel Tour tournament dates.",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "density": "4.0",
+      "purpose": "any"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "density": "5.0",
+      "purpose": "any"
+    }
+  ],
+  "theme_color": "#68DFE2",
+  "background_color": "#22346d",
+  "display": "standalone"
+}
